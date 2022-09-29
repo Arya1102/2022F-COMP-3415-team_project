@@ -1,0 +1,14 @@
+.button {
+    background-color: bisque;
+    display: inline-block;
+    width: fit-content;
+}
+
+.button:hover {
+    cursor:pointer;
+}
+
+.login_window {
+    background-color: aquamarine;
+    width: 170px;
+}

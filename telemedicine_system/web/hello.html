@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resident Registration</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <script src="static/js/jquery-3.6.1.min.js"></script>
+    <script src="static/js/script.js"></script>
+</head>
+<body>
+<div class="button" id="res_reg_btn">resident registration</div>
+<div class="button" id="res_login_btn">resident login</div>
+<div class="button" id="med_reg_btn">medication provider registration</div>
+<div class="button" id="med_login_btn">medication provider login</div>
+
+<div class="login_window" id="res_reg">
+    <h2>Resident Registration</h2>
+    <form action="res_reg" method="post">
+        username: <input type="text" name="username">
+        password: <input type="password" name="password">
+        confirm your password: <input type="password" name="confirm_password">
+        birth date: <input type="date" name="birthdate">
+        address: <input type="text" name="address">
+        tel: <input type="tel" name="tel">
+        <input type="submit" value="ok">
+    </form>
+</div>
+
+<div class="login_window" id="res_login">
+    <h2>Resident Login</h2>
+    <form action="res_login" method="post">
+        username: <input type="text" name="username">
+        password: <input type="password" name="password">
+        <input type="submit" value="ok">
+    </form>
+</div>
+
+<div class="login_window" id="med_reg">
+    <h2>Medication Provider Registration</h2>
+    <form action="med_reg" method="post">
+        username: <input type="text" name="username">
+        password: <input type="password" name="password">
+        confirm your password: <input type="password" name="confirm_password">
+        organization: <input type="text" name="org">
+        address: <input type="text" name="address">
+        tel: <input type="tel" name="tel">
+        <input type="submit" value="ok">
+    </form>
+</div>
+
+<div class="login_window" id="med_login">
+    <h2>Medication Provider Login</h2>
+    <form action="med_login" method="post">
+        username: <input type="text" name="username">
+        password: <input type="password" name="password">
+        <input type="submit" value="ok">
+    </form>
+</div>
+</body>
+</html>

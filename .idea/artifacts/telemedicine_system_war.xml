@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="telemedicine_system:war">
+    <output-path>$PROJECT_DIR$/telemedicine_system/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>telemedicine_system</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="telemedicine_system-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="telemedicine_system:war exploded" />
+    </root>
+  </artifact>
+</component>
